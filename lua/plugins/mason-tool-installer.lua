@@ -7,6 +7,7 @@ return {
 				"gofumpt",
 				"goimports",
 				"golines",
+				"prettier",
 
 				-- Linters
 				"golangci-lint",
