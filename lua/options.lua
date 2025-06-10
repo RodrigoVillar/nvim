@@ -26,3 +26,5 @@ vim.api.nvim_create_autocmd({ "FocusLost", "FocusGained" }, {
 		vim.cmd("stopinsert")
 	end,
 })
+
+vim.opt.colorcolumn = "80,100"

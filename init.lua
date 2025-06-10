@@ -5,4 +5,4 @@ require("options")
 require("config.lsp")
 
 -- Key bindings
-require("telescope_bindings")
+require("key_bindings")
