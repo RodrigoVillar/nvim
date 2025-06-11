@@ -28,3 +28,4 @@ vim.api.nvim_create_autocmd({ "FocusLost", "FocusGained" }, {
 })
 
 vim.opt.colorcolumn = "80,100"
+vim.opt.scrolloff = 999
