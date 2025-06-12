@@ -5,6 +5,7 @@ vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope find f
 vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live grep" })
 vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope buffers" })
 vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
+vim.keymap.set("n", "<leader>fr", builtin.oldfiles, { desc = "Telescope show recent files" })
 
 vim.keymap.set("n", "<leader>p", "", { desc = "Peek" })
 vim.keymap.set("n", "<leader>pd", builtin.lsp_definitions, { desc = "Peek definitions" })
@@ -14,5 +15,6 @@ vim.keymap.set("n", "<leader>pr", builtin.lsp_references, { desc = "Peek referen
 vim.keymap.set("n", "<leader>n", "", { desc = "NvimTree" })
 vim.keymap.set("n", "<leader>nt", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 
-vim.keymap.set("n", "<leader>g", "", { desc = "Neogit" })
+vim.keymap.set("n", "<leader>g", "", { desc = "Git" })
 vim.keymap.set("n", "<leader>gt", ":Neogit<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>gh", ":Gitsigns preview_hunk<CR>", { noremap = true, silent = true })
