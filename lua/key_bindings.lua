@@ -18,3 +18,10 @@ vim.keymap.set("n", "<leader>nt", ":NvimTreeToggle<CR>", { noremap = true, silen
 vim.keymap.set("n", "<leader>g", "", { desc = "Git" })
 vim.keymap.set("n", "<leader>gt", ":Neogit<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>gh", ":Gitsigns preview_hunk<CR>", { noremap = true, silent = true })
+
+-- Directional window switching (more precise)
+vim.keymap.set("n", "<leader>w", "<C-w>", { desc = "Window Movement" })
+vim.keymap.set("n", "<leader>wh", "<C-w>h", { desc = "Move to left window" })
+vim.keymap.set("n", "<leader>wj", "<C-w>j", { desc = "Move to window below" })
+vim.keymap.set("n", "<leader>wk", "<C-w>k", { desc = "Move to window above" })
+vim.keymap.set("n", "<leader>wl", "<C-w>l", { desc = "Move to right window" })
