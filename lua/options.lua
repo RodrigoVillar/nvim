@@ -29,3 +29,9 @@ vim.api.nvim_create_autocmd({ "FocusLost", "FocusGained" }, {
 
 vim.opt.colorcolumn = "80,100"
 vim.opt.scrolloff = 999
+
+-- Show marks in the sign column
+vim.opt.signcolumn = "yes" -- Always show sign column
+
+-- Enable mark signs (this might work in some Neovim versions)
+vim.g.show_marks = 1

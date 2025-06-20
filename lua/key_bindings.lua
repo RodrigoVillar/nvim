@@ -25,3 +25,6 @@ vim.keymap.set("n", "<leader>wh", "<C-w>h", { desc = "Move to left window" })
 vim.keymap.set("n", "<leader>wj", "<C-w>j", { desc = "Move to window below" })
 vim.keymap.set("n", "<leader>wk", "<C-w>k", { desc = "Move to window above" })
 vim.keymap.set("n", "<leader>wl", "<C-w>l", { desc = "Move to right window" })
+
+vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, { desc = "Rename symbol" })
+vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>", { desc = "Disable search highlights" })
