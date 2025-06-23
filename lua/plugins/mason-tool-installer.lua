@@ -8,9 +8,11 @@ return {
 				"goimports",
 				"golines",
 				"prettier",
+				"rust-analyzer",
 
 				-- Linters
 				"golangci-lint",
+				"rustfmt",
 
 				-- Other tools
 				"stylua",
