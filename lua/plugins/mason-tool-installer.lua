@@ -8,14 +8,17 @@ return {
 				"goimports",
 				"golines",
 				"prettier",
-				"rust-analyzer",
+				"stylua",
 
 				-- Linters
 				"golangci-lint",
 				"rustfmt",
+				"ruff",
 
 				-- Other tools
-				"stylua",
+				"rust-analyzer",
+				"gopls",
+				"ty",
 			},
 			auto_update = false,
 			run_on_start = true,
