@@ -22,6 +22,7 @@ return {
 			lua = { "stylua" },
 			go = { "gofumpt", "goimports", "golines" },
 			markdown = { "prettier" },
+			rust = { "rustfmt" },
 		},
 		-- Set default options
 		default_format_opts = {
